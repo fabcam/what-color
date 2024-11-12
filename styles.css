@@ -1,0 +1,110 @@
+
+  /* Styling for a minimal, centered layout */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    width: 250px;
+    box-sizing: border-box;
+  }
+
+  /* Styling for all forms */
+  .apiForm {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  /* Styling for labels */
+  .apiForm label {
+    font-size: 12px;
+    color: #555;
+  }
+
+  /* Styling for input and button container */
+  .form-row {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+
+  /* Styling for input fields */
+  .inputField {
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 60px;
+    text-align: center;
+  }
+
+  .inputField:focus {
+    border-color: #0078d4;
+  }
+
+  /* Styling for submit buttons */
+  .apiForm button {
+    padding: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0078d4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .apiForm button:hover {
+    background-color: #005a9e;
+  }
+
+  /* Eye dropper button styling */
+  #eyeDropperBtn {
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0078d4;
+    background: none;
+    border: 2px solid #0078d4;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color 0.3s ease, border-color 0.3s ease;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  #eyeDropperBtn:hover {
+    color: #005a9e;
+    border-color: #005a9e;
+  }
+
+  /* Styling for the result text */
+  #result {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+  }
+
+  .colorSquare {
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    padding: 6px;
+  }

@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "What Name???",
+  "description": "Gets the name of the color by its hex code",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "sparkles.png"
+  }
+}

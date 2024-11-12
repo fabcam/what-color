@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Name Lookup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <span>
+    <h2>What Color?</h2>
+    <h4>(for the colorblind)</h4>
+  </span>
+
+  <form class="apiForm" id="apiForm">
+    <label for="inputField">Get Name from <a href='https://www.thecolorapi.com/' target="_blank">API</a>:</label>
+    <div class="form-row">
+      <input class="inputField" type="text" id="inputField" name="inputField" required>
+      <button type="submit">Go!</button>
+      <div id="result"></div>
+      <div class="colorSquare" id="colorSquare"></div>
+    </div>
+  </form>
+
+  <form class="apiForm" id="apiForm2">
+    <label for="inputField2">Get Approximation (basic):</label>
+    <div class="form-row">
+      <input class="inputField" type="text" id="inputField2" name="inputField2" required>
+      <button type="submit">Go!</button>
+      <div id="result2"></div>
+      <div class="colorSquare" id="colorSquare2"></div>
+    </div>
+  </form>
+
+  <form class="apiForm" id="apiForm3">
+    <label for="inputField3">Get Approximation (extended):</label>
+    <div class="form-row">
+      <input class="inputField" type="text" id="inputField3" name="inputField3" required>
+      <button type="submit">Go!</button>
+      <div id="result3"></div>
+      <div class="colorSquare" id="colorSquare3"></div>
+    </div>
+  </form>
+
+  <button id="eyeDropperBtn">Color Picker</button>
+
+  <script src="get-color-name-api.js"></script>
+  <script src="get-color-name-approx.js"></script>
+  <script src="inputs-handler.js"></script>
+</body>
+
+</html>
