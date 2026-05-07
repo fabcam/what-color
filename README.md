@@ -19,7 +19,7 @@ A Chrome extension that helps you discover color names and hex codes in seconds.
 ## Installation
 
 ### From Chrome Web Store
-[Link to Chrome Web Store - Coming soon]
+[Link to Chrome Web Store](https://chromewebstore.google.com/detail/what-name/kgmpafilalfdpgphbhmldeplplkjebnc?authuser=2&hl=en)
 
 ### Manual Installation (Development)
 1. Clone the repository:
